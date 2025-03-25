@@ -179,6 +179,29 @@ nav ul li:not(:last-child) {
     display: block;
 }
 
+
+/* Secciones Base */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: white; /* Fondo blanco */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #550445; /* Título vino */
+    margin-bottom: 15px;
+}
+
+
 /* Sección de inicio (galeria y texto) */
 .gallery-text-section {
     display: flex; /* Alinea los elementos horizontalmente */
@@ -509,27 +532,6 @@ nav ul li:not(:last-child) {
     color: #FFFFFF;
 }
 
-/* Secciones */
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-section {
-    margin: 30px 0;
-    padding: 20px;
-    background-color: white; /* Fondo blanco */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    color: #550445; /* Título vino */
-    margin-bottom: 15px;
-}
-
 /* Sección Contactame */
 .contact-section {
     display: flex;
@@ -699,7 +701,7 @@ form input[type="submit"]:hover {
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: #550445; /* Fondo negro */
+    background-color: #550445; 
     color: white; /* Texto blanco */
     margin-top: 20px;
 }
@@ -716,7 +718,6 @@ button {
 }
 
 /* Página de Comikon Submenú */
-
 /* General */
 body {
     font-family: Arial, sans-serif;
@@ -772,20 +773,20 @@ body {
 .button-link {
     display: inline-flex; /* Alinea ícono y texto horizontalmente */
     align-items: center;
-    gap: 8px; /* Espaciado entre ícono y texto */
+    gap: 8px; 
     padding: 10px 20px;
     font-size: 1rem;
     color: white; /* Texto blanco */
     background-color: #00BFBF; /* Color base */
-    text-decoration: none; /* Elimina subrayado */
+    text-decoration: none; 
     border: none;
     border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s ease; /* Suave cambio de color */
+    transition: background-color 0.3s ease; 
 }
 
 .button-link:hover {
-    background-color: #550445; /* Cambia a color oscuro al pasar el cursor */
-    color: white; /* Asegura que el texto siga visible */
+    background-color: #550445; 
+    color: white; 
 }
 
 .button-link i {
