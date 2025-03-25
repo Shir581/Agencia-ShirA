@@ -5,137 +5,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencia ShirA</title>
-    <link rel="stylesheet" href="STYLE1.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
 
+    <div class="top-bar">
+        <div class="contact-info">
+            <span><i class="fas fa-envelope"></i> Escríbenos:  <a href="mailto:shirlenavalenzuela4@gmail.com"> shirlenavalenzuela4@gmail.com</a></span>
+            <span><i class="fas fa-phone-alt"></i> Llámanos:  <a href="tel:+573227047543"> +57 322-704-7543</a></span>
+        </div>
+        <div class="social-links">
+            <span><i class="fas fa-share-alt"></i> Síguenos en redes:</span>
+            <a href="https://www.instagram.com/shirlenavalen" target="_blank"><i class="fab fa-instagram"></i> </a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> </a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> </a>
+        </div>
+    </div>    
+
     <header>
-        <h1>Agencia ShirA</h1>
-        <nav>
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#SobreMi">Sobre mí</a></li>
-                <li><a href="#Servicios">Servicios</a></li>
-                <li><a href="#MarcasAsesoradas">Marcas Asesoradas</a></li>
-                <li><a href="#Contactame">Contáctame</a></li>
-            </ul>
-        </nav>
+
+        <div class="header-container">
+            <img src="images/LogoSA.png" alt="Logo Agencia ShirA" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#SobreMi">Sobre mí</a></li>
+                    <li><a href="#Servicios">Servicios</a></li>
+                    <li class="dropdown">
+                        <a href="#">Marcas Asesoradas</a>
+                        <ul class="submenu">
+                            <li><a href="PageCK.html">Comikon</a></li>
+                        </ul>
+                    </li>            
+                    <li><a href="#Contactame">Contáctame</a></li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
 
     <section id="Inicio">
-        <h2>Transformamos tu marca, contamos tu historia</h2>
-        <img src="IMAGEN1.jpg">
-        <p style="text-align: justify;">Bienvenido a mi portafolio, un espacio diseñado para ofrecerte soluciones
-            creativas y estratégicas que elevarán la <b>imagen de tu marca.</b> Aquí encontrarás una variedad de
-            servicios enfocados en <b>diseño gráfico, branding, identidad visual y estrategias de comunicación,</b>
-            todos pensados para ayudarte a destacar en un mercado cada vez más competitivo. ¡Explora mi trabajo y
-            descubre cómo podemos llevar tu marca al siguiente nivel!</p>
+        <section class="gallery-text-section">
+            <div class="gallery">
+                <img src="./images/GaleriaImage1.jpg" alt="Imagen 1">
+                <img src="./images/GaleriaImage4.jpg" alt="Imagen 4">
+                <img src="./images/GaleriaImage2.jpg" alt="Imagen 2">
+                <img src="./images/GaleriaImage3.jpg" alt="Imagen 3">
+            </div>
+            <div class="text-content">
+                <h1>Transformamos tu marca, contamos tu historia</h1>
+                <p>
+                    <b>¡Bienvenido/a!</b> Este es un espacio diseñado para ofrecerte soluciones creativas y estratégicas que elevarán la imagen de tu marca. Aquí encontrarás una variedad de servicios enfocados en <b>diseño gráfico, branding, identidad visual y estrategias de comunicación,</b> todos pensados para ayudarte a destacar en un mercado cada vez más competitivo. <em>¡Explora mi trabajo y descubre cómo podemos llevar tu marca al siguiente nivel!</em>
+                </p>
+            </div>
+        </section>
     </section>
 
-    <section id="SobreMi">
-        <h2>Sobre mí</h2>
-        <p style="text-align: justify;">Soy Shirlena Valenzuela, freelancer especializada en marketing digital e
-            imagen corporativa. Mi pasión es ayudar a las marcas a construir su identidad, conectar con su audiencia y
-            destacar en un mercado competitivo a través de estrategias creativas y efectivas.</p>
-        <p>Puedes consultar mi perfil laboral de LinkedIn, buscandome como: <a href="www.linkedin.com/in/shirlena-valenzuela-araujo-0262441b4">Shirlena Valenzuela Araujo.</a></p>
+    <section id="SobreMi" class="about-me-section">
+        <div class="profile-photo-info">
+            <img src="./images/FotoShir.jpg" alt="Foto Shirlena Valenzuela">
+            <div class="text-content-2">
+                <h1>Sobre mí</h1>
+                <p style="text-align: justify;">
+                    Soy Shirlena Valenzuela, freelancer especializada en marketing digital e imagen corporativa. Mi pasión es ayudar a las marcas a construir su identidad, conectar con su audiencia y destacar en un mercado competitivo a través de estrategias creativas y efectivas.
+                    Puedes consultar mi perfil laboral de LinkedIn, buscándome como: <a href="www.linkedin.com/in/shirlena-valenzuela-araujo-0262441b4">Shirlena Valenzuela Araujo.</a>
+                </p>
+            </div>
+        </div>
+        <div class="agency-info">
+            <h1>¡Conoce mi agencia!</h1>
+            <div class="text-content-3">
+            <img src="./images/LogoSF.png" alt="Agencia ShirA">
+            <p>
+                Abrimos nuestra agenda desde el <b>2024</b> y nuestros proyectos han sido exitosos, con planes de marketing digital estructurados y una imagen corporativa asertiva. Somos apasionados por crear soluciones estratégicas y visuales. Nos dedicamos a fortalecer la identidad de marcas, ayudándolas a contar historias que conecten con las personas. <em>¡Comencemos a trabajar juntos para darle vida a tu marca!</em>
+            </p>
+            </div>
+        </div>
     </section>
 
-    <section id="Servicios">
-        <h2>Servicios</h2>
-        <img src="IMAGEN2.jpg">
-        <h3>¿Qué servicios ofrezco?</h3>
-        <ul>
-            <li><b>Estrategias de Marketing Digital</b></li>
-            <p style="text-align: justify;">Diseñadas para potenciar la presencia de tu marca en el entorno digital. A
-                través de acciones personalizadas como gestión de redes sociales, campañas publicitarias, optimización
-                SEO y marketing de contenidos, que ayudaran a mejorar tu visibilidad, atraer clientes y fortalecer la
-                identidad de tu marca en el mercado.</p>
-            <li><b>Diseño de Marca e Identidad Visual</b></li>
-            <p style="text-align: justify;">A través de la creación de logotipos, paletas de colores, tipografías y
-                elementos gráficos coherentes, se desarrollara una identidad visual <b>sólida y atractiva</b> que
-                refuerza el reconocimiento de tu marca y genera una conexión emocional con tu publico objetivo.</p>
-            <li><b>Diseño de Material Publicitario</b></li>
-            <p style="text-align: justify;">Abarca la edición de videos impactantes y el diseño de piezas publicitarias
-                para redes sociales, asegurando que cada contenido sea <b>visualmente atractivo,</b> coherente con tu
-                identidad de marca y optimizado para generar mayor interacción y engagement.</p>
-        </ul>
+    <section id="Servicios" class="services-section">
+        <h1>¿Qué servicios ofrecemos?</h1>
+        <div class="services-gallery">
+            <div class="slide active">
+                <img src="./images/EstrategiasMaketing.png" alt="Estrategias de Marketing Digital">
+                <div class="text-container-4">
+                    <h3>Estrategias de <em>Marketing Digital</em></h3>
+                    <p>Diseñadas para potenciar la presencia de tu marca en el entorno digital. A través de acciones personalizadas como gestión de redes sociales, campañas publicitarias, optimización SEO y marketing de contenidos, que ayudaran a mejorar tu visibilidad, atraer clientes y fortalecer la identidad de tu marca en el mercado.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./images/DisMarca.jpg" alt="Diseño de Marca e Identidad Visual">
+                <div class="text-container-4">
+                    <h3><em>Diseño de Marca</em> e <em>Imagen Corporativa</em></h3>
+                    <p>A través de la creación de logotipos, paletas de colores, tipografías y elementos gráficos coherentes, se desarrollará una identidad visual sólida y atractiva que refuerza el reconocimiento de tu marca y genera una conexión emocional con tu público objetivo.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./images/MaterialPublicitario.jpg" alt="Diseño de Material Publicitario">
+                <div class="text-container-4">
+                    <h3>Diseño de <em>Material Publicitario</em></h3>
+                    <p>Abarca la edición de videos impactantes y el diseño de piezas publicitarias para redes sociales, asegurando que cada contenido sea visualmente atractivo, coherente con tu identidad de marca y optimizado para generar mayor interacción y engagement.</p>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="prev">Anterior</button>
+            <button id="next">Siguiente</button>
+        </div>
     </section>
 
-    <section id="MarcasAsesoradas">
-        <h2>Marcas Asesoradas</h2>
-        <img src="MARCAS.png">
-        <h3>¿Qué trabajo he realizado con ellos?</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Proyecto</th>
-                    <th>Cliente</th>
-                    <th>Descripción</th>
-                    <th>Visita su Instagram</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Rebranding corporativo</td>
-                    <td>Comikon</td>
-                    <td>Creación de nueva identidad visual para aumentar impacto</td>
-                    <td><a href="https://www.instagram.com/comikon.valledupar/">@comikon.valledupar</a></td>
-                </tr>
-                <tr>
-                    <td>Estrategia digital</td>
-                    <td>Estrato 7</td>
-                    <td>Campaña de redes sociales enfocada en mejor visibilidad de la marca</td>
-                    <td><a href="https://www.instagram.com/estrato7licores/">@estrato7licores</a></td>
-                </tr>
-                <tr>
-                    <td>Estrategia digital</td>
-                    <td>Kashe Coworking</td>
-                    <td>Campaña de redes sociales enfocada en aumento de seguidores y mayor interacción</td>
-                    <td><a href="https://www.instagram.com/kashecoworking/">@kashecoworking</a></td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>Muestra de Piezas Publicitarias</h3>
-        <img src="PIEZAS_PUBLICITARIAS.png">
-    </section>
+    <section id="Contactame" class="contact-section">
+        <div class="gallery-container">
+            <h1>¡Un vistazo al futuro de tu marca!</h1>
+            <div class="gallery-wrapper">
+                <button class="gallery-btn prev-btn">&lt;</button>
+                <div class="gallery-slide"> 
+                    <div class="slide-2">
+                        <img src="./images/E7EP/POST EVENTO PARTIDO FUTBOL.png" alt="Trabajo 1">
+                    </div>
+                    <div class="slide-2">
+                        <img src="./images/E7PP/3.png" alt="Trabajo 2">
+                    </div>
+                    <div class="slide-2">
+                        <img src="./images/KSEP/EVENTO DIA DEL CONTADOR POST 1 VISION BOARD.png" alt="Trabajo 3">
+                    </div>
+                    <div class="slide-2">
+                        <img src="./images/KSEP/3 (2).png" alt="Trabajo 4">
+                    </div>
+                </div>
+                <button class="gallery-btn next-btn">&gt;</button>
+            </div>
+        </div>
+    
 
-    <section id="Contactame">
-        <h2>Contáctame</h2>
-        <table>
-            <tr>
-                <th>Numero de Telefono</th>
-                <th>Correo</th>
-                <th>Instagram</th>
-            </tr>
-            <tr>
-                <td>+57 322-704-7543</td>
-                <td>shirlenavalenzuela4@gmail.com</td>
-                <td><a href="https://www.instagram.com/shirlenavalen/">@shirlenavalen</a></td>
-            </tr>
-        </table>
+        <div class="form-container">
+            <h2>Contáctame</h2>
+            <div class="contact-info-2">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt icon"></i>
+                    <p>+57 322-704-7543</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope icon"></i>
+                    <p>shirlenavalenzuela4@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-instagram icon"></i>
+                    <p><a href="https://www.instagram.com/shirlenavalen/">@shirlenavalen</a></p>
+                </div>
+            </div>
 
-        <P>¡Registra tus datos para recibir información sobre mis servicios!</P>
-        <form>
-            <label for="nombre">Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre" required><br>
-
-            <label for="telefono">Telefono</label><br>
-            <input type="tel" id="telefono" name="telefono"><br>
-
-            <label for="email">Correo electrónico:</label><br>
-            <input type="email" id="email" name="email" placeholder="nombre@dominio.com" required><br>
-
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
-
-            <input type="submit" value="Enviar">
-        </form>
+            <p><em>¡Registra tus datos para recibir información sobre mis servicios!</em></p>
+            <form id="contactForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ejemplo: 123-456-7890">
+            
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="nombre@dominio.com" required>
+            
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+                <input type="submit" value="Enviar">
+            </form>
+            <div id="formMessage" style="margin-top: 10px; color: green;"></div>
+        </div>
     </section>
 
     <footer>
         <p>Center>&copy;2024 Agencia ShirA, todos los derechos reservados</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
